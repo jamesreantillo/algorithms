@@ -20,11 +20,10 @@ const str = 'james';
 // console.log(reverseStr(str));
 
 //Answer3
-
-const reverseStr = (x) => {
-  let rStr = x.split('');
-  return rStr.reduce((y, z) => {
-    return z + y;
-  }, '');
-};
-console.log(reverseStr(str));
+// const reverseStr = (x) => {
+//   let rStr = x.split('');
+//   return rStr.reduce((y, z) => {
+//     return z + y;
+//   }, '');
+// };
+// console.log(reverseStr(str));
